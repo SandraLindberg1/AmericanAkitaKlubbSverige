@@ -65,7 +65,7 @@
 .rubrik{
     font-family:sans-serif;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 8%;
     margin-bottom: 8%;
 }
 
@@ -73,13 +73,14 @@
 .card{
    max-width: 18rem;
    min-width: none;
-   margin: 10%; 
+   margin: 10%;
+   
 }
 
 /*Showcase*/
 .showcase{
-   margin-top: 10%;
-   text-align: center;
+   padding: 50px;
+   margin: auto;
 }
 .showcase h3{
    text-align: center;
