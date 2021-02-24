@@ -122,3 +122,24 @@
     font-size: 2.2rem;
     /* margin: 1rem; */
 }
+
+/* --------------------------------------------------------------------------------- */
+
+/*----------------------------------- SENASTE NYTT----------------------------------- */
+
+#inlägg{
+    margin: auto;
+    margin-top: 5%;
+    max-width: 100%;
+    min-width: none;
+}
+
+#inlägg img{
+    margin: auto;
+    margin-top: 5%;
+    max-width: 30%;
+    min-width: none;
+}
+
+
+
