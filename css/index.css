@@ -73,13 +73,12 @@
    max-width: 18rem;
    min-width: none;
    margin: 10%;
-   
 }
 
 /*Showcase*/
 .showcase{
    padding: 30px;
-   text-align: center;   
+   text-align: center;  
 }
 .showcase h3{
    text-align: center;
@@ -95,7 +94,6 @@
     text-align: center;
     max-width: 100%;
     min-width: 25%;
-    margin-left: 5%;
 }
 
 /*Logo*/
