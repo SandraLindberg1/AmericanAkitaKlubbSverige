@@ -65,21 +65,20 @@
 .rubrik{
     font-family:sans-serif;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 8%;
+    margin-bottom: 8%;
 }
 
 /* Senaste nytt, Kom Ihåg, Köpa hund, Länklista */
 .card{
    max-width: 18rem;
    min-width: none;
-   margin: 10%;
-   
+   margin: 10%;   
 }
 
 /*Showcase*/
 .showcase{
-   padding: 50px;
-   margin: auto;
+   text-align: center;
 }
 .showcase h3{
    text-align: center;
