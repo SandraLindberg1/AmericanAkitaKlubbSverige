@@ -69,11 +69,11 @@
 }
 
 /* Senaste nytt, Kom Ihåg, Köpa hund, Länklista */
-.card{
+/* .card{
    max-width: 18rem;
    min-width: none;
    margin: 10%;
-}
+} */
 
 /*Showcase*/
 .showcase{
@@ -146,6 +146,14 @@
 /*----------------------------------RASSTANDARDEN----------------------------------- */
 
 #rasstandarden{
+    max-width: 100%;
+    min-width: none;
+}
+
+/* --------------------------------------------------------------------------------- */
+
+/*----------------------------------------HÄLSA-------------------------------------- */
+#hälsa{
     max-width: 100%;
     min-width: none;
 }
