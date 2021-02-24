@@ -59,9 +59,9 @@
                     Rasen
                   </a>
                   <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                    <li><a class="dropdown-item" href="#">Rasstandard</a></li>
+                    <li><a class="dropdown-item" href="rasstandard.html">Rasstandard</a></li>
                     <li><a class="dropdown-item" href="#">Hälsa</a></li>
-                    <!-- <li><a class="dropdown-item" href="#">Hälsoresultat</a></li> -->
+                    <li><a class="dropdown-item" href="#">Historia</a></li>
                   </ul>
                 </li>
               </ul>
@@ -112,7 +112,6 @@
                     <li><a class="dropdown-item" href="#">Att Tänka På</a></li>
                     <li><a class="dropdown-item" href="#">Uppfödare</a></li>
                     <li><a class="dropdown-item" href="#">Planerade Valpar</a></li>
-                    <li><a class="dropdown-item" href="#">Till Salu</a></li>
                     <li><a class="dropdown-item" href="#">Omplacering</a></li>
                   </ul>
                 </li>
@@ -126,7 +125,6 @@
                     Topplistor
                   </a>
                   <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                    <li><a class="dropdown-item" href="#">Resultat</a></li>
                     <li><a class="dropdown-item" href="#">Topplista Utställning</a></li>
                     <li><a class="dropdown-item" href="#">Topplista Viltspår</a></li>
                     <li><a class="dropdown-item" href="#">Topplista Aktiv Hund</a></li>
