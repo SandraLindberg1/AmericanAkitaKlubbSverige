@@ -39,7 +39,7 @@
             <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">Start</a>
+                  <a class="nav-link" aria-current="page" href="index.html">Start</a>
                 </li>
               </ul>
             </div>
@@ -70,7 +70,7 @@
             <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
               <ul class="navbar-nav">
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle"  id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a class="nav-link active dropdown-toggle"  id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Klubben
                   </a>
                   <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
@@ -79,9 +79,8 @@
                     <li><a class="dropdown-item" href="medlemskap.html">Medlemskap</a></li>
                     <li><a class="dropdown-item" href="styrelsen.html">Styrelsen</a></li>
                     <li><a class="dropdown-item" href="kommittéer.html">Kommittéer</a></li>
-                    <li><a class="dropdown-item" href="aaksbladet.html">AAKS Bladet</a></li>
+                    <li><a class="dropdown-item active" href="aaksbladet.html">AAKS Bladet</a></li>
                     <li><a class="dropdown-item" href="produkter.html">Produkter</a></li>
-                    <li><a class="dropdown-item" href="kontakta-oss.html">Kontakta Oss</a></li>
                   </ul>
                 </li>
               </ul>
@@ -98,7 +97,7 @@
                     <li><a class="dropdown-item" href="hanhundslista.html">Hanhundslista</a></li>
                     <li><a class="dropdown-item" href="RAS.html">RAS - Rasspecifika AvelsStrategier</a></li>
                     <li><a class="dropdown-item" href="avelskommitte.html">Avelskommitté</a></li>
-                    <li><a class="dropdown-item" href="statestik.html">Statestik</a></li>
+                    <li><a class="dropdown-item" href="statistik.html">Statistik</a></li>
                   </ul>
                 </li>
               </ul>
@@ -186,11 +185,54 @@
     </header>
     <main>
       <!-- Rubriken -->
-      <div class="container-sm">
-        <div class="rubrik">
-          <h1>Sidorubrik!</h1>
+      <div id="rubrik" class="container-sm">
+        <h1>AAKS Bladet!</h1>
+      </div>
+      
+      <div class="container-lg">
+        <div id="aaksbladet" class="card border-0">
+          <div class="card-body">
+            <!-- <h1 class="card-title">American Akita</h1>
+            <h4 class="card-title">Tidigare Great Japanese Dog</h4> -->
+            <p class="card-text">
+              Vår medlemstidning kommer ut med 4 st nr/år.
+              <br>
+              Det är vi medlemmar som tillsammans gör tidningen roligt och intressant så skicka manus och bilder till vår redaktör på <a href = "mailto: abc@example.com">E-post</a>
+              <br><br>
+              <ul id="bladnummer" class="list-group list-group-horizontal-md">
+                <li class="list-group-item"><strong>Nummer</strong><br>1 <br>2 <br>3 <br>4</li>
+                <li class="list-group-item"><strong>Utgivningsmånad</strong><br>Mars <br>Maj <br>September <br>December</li>
+                <li class="list-group-item list-group-item-danger"><strong>Manusstopp</strong><br>3 Mars <br>30 April <br>15 Augusti <br>25 November</li>
+              </ul>
+              <br><br>
+              <strong>Viktig info gällande material till tidningen!</strong>
+              <br><br>
+              Ange gärna namn och kontaktuppgifter även om du skriver under signatur så vår redaktör kan kontakta dig om det är några frågetecken.
+              <br><br>
+              Är ni osäkra på hur ni ska gå till väga och har material ni vill ha med, så ring redaktören. Allting går att lösa.
+              <br><br>
+              Tänk på att bilder som skall gå i tryck gärna får vara i bättre kvalité än de som skickas till hemsidan eftersom de gör sig bättre i tryck.
+              Skicka gärna bilder separat till texten då det är lättare för redaktören att göra en bra layout på tidningen.
+              <br><br>
+              Vill du ha bilder som skickats per post i retur måste du skicka med ett frankerat kuvert med din adress på.
+              <br><br>
+              Annonser skall skickas som PDF eller i bildformat för att vi ska kunna garantera att annonsen ser ut som du tänkt dig.
+              Betala annonsen (bankgiro 402-1515) samtidigt som du skickar materialet då endast förbetalda annonser publiceras, glöm inte att märka betalningen så vi vet vad den gäller.
+              <br><br>
+              <ul id="bladnummer" class="list-group list-group-horizontal-md">
+                <li class="list-group-item"><strong>Priser kommersiella annonser</strong><br>Helsida:<br>Halvsida:<br>Årsannonsering helsida:<br>Årsannonsering halvsida:</li>
+                <li class="list-group-item"><strong>Priser</strong><br>400 kr<br>300 kr<br>1350 kr<br>800 kr</li>
+              </ul>
+              <ul id="bladnummer" class="list-group list-group-horizontal-md">
+                <li class="list-group-item"><strong>Priser medlemsannonser </strong><br>Helsida:<br>Halvsida:</li>
+                <li class="list-group-item"><strong>Priser</strong><br>350 kr<br>200 kr</li>
+              </ul>
+              <br><br>
+              Styrelsen vill understryka att innehåll i artiklar står för författarens uppfattning och behöver nödvändigtvis inte sammanfalla med, eller delas av, redaktionen och styrelsen.
+            </p>
+          </div>
         </div>
-      </div>           
+      </div>
     </main>
     <footer>
       <div class="container-sm">
@@ -198,7 +240,6 @@
           <div class="social">
             <a href="#"><i class="bi bi-facebook"></i></a>
             <a href="#"><i class="bi bi-instagram"></i></a>
-            <a href="kontaktsida.html"><i class="bi bi-envelope-fill"></i></a>
           </div>
           <p> Copyright &copy; American Akita Klubb Sverige</p>
         </div>
