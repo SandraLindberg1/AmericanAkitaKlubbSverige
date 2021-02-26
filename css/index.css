@@ -172,7 +172,7 @@
 
 /*-------------------------------------OM KLUBBEN-------------------------------------- */
 #klubben{
-    max-width: 60%;
+    max-width: 100%;
     min-width: none;
     margin: auto;
     margin-top: 3%;
@@ -190,7 +190,7 @@
 /*-------------------------------------STADGAR-------------------------------------- */
 
 #stadgar{
-    max-width: 60%;
+    max-width: 100%;
     min-width: none;
     margin: auto;
     margin-top: 3%;
@@ -206,7 +206,7 @@
 /*-------------------------------------MEDLEMSKAP-------------------------------------- */
 
 #medlemskap{
-    max-width: 60%;
+    max-width: 100%;
     min-width: none;
     margin: auto;
     margin-top: 3%;
@@ -250,7 +250,7 @@
 /*-------------------------------------AAKS-BLADET-------------------------------------- */
 
 #aaksbladet{   
-    max-width: 80%;
+    max-width: 100%;
     min-width: none;
     margin: auto;
     margin-top: 3%;
@@ -258,6 +258,8 @@
 
 #bladnummer li{
     border: 0;
+    max-width: 100%;
+    min-width: none;
 }
 
 /* --------------------------------------------------------------------------------- */
@@ -267,6 +269,11 @@
 #produkter{
     margin: auto;
     margin-top: 3%;
-    max-width: 50%;
+    max-width: 80%;
     min-width: none;
+}
+
+#produkter img{
+    margin: auto;
+    padding: 0;
 }
