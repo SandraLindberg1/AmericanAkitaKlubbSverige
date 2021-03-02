@@ -222,7 +222,7 @@
 
 #styrelsen{
     margin: auto;
-    max-width: 50%;
+    max-width: 80%;
     min-width: none;
     margin-top: 3%;
     text-align: center;
@@ -238,7 +238,7 @@
 
 #kommittéer{
     margin: auto;
-    max-width: 50%;
+    max-width: 80%;
     min-width: none;
     margin-top: 3%;
     text-align: center;
@@ -256,8 +256,8 @@
     margin-top: 3%;
 }
 
-#bladnummer li{
-    border: 0;
+#bladnummer {
+    margin: auto;
     max-width: 100%;
     min-width: none;
 }
