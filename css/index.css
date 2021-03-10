@@ -339,7 +339,41 @@
     margin: auto;
     max-width: 80%;
     min-width: none;
+}
+
+#antal-djur{
+    margin: auto;
+    max-width: 80%;
+    min-width: none;
+}
+
+#ålder{
+    margin: auto;
+    max-width: 80%;
+    min-width: none;  
+}
+
+#inavelsgrad{
+    margin: auto;
+    max-width: 80%;
+    min-width: none;
+    margin-bottom: 5%;
+}
+
+#antal-avkommor{
+    margin: auto;
+    max-width: 80%;
+    min-width: none;
     padding: 0;
+    margin-bottom: 5%;
+}
+
+#antal-barnbarn{
+    margin: auto;
+    max-width: 80%;
+    min-width: none;
+    padding: 0;
+    margin-bottom: 5%; 
 }
 
 /* --------------------------------------------------------------------------------- */
