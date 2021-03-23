@@ -478,6 +478,55 @@
     min-width: none;
 }
 
+#utställning-2020{
+    text-align: center;
+}
+
+#utställning-2019, #utställning-2018, #utställning-2017, #utställning-2016, #utställning-2015{
+    text-align: center;
+}
+
+#utställning-2017 img{
+    text-align: center;
+    min-width: none;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+#utställning-2016 img{
+    text-align: center;
+    min-width: none;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+
+#hane2015{
+    max-width: 85%;
+    min-width: none;
+    margin: auto;
+    margin-top: 10%;
+}
+
+#tik2015{
+    max-width: 100%;
+    min-width: none;
+    margin-top: 10%; 
+}
+#utställning-2014, #utställning-2013, #utställning-2012, #utställning-2011, #utställning-2010{
+    text-align: center;
+}
+
+#utställning-2009, #utställning-2008, #utställning-2007, #utställning-2006, #utställning-2005{
+    text-align: center;
+}
+
+#utställning-2004, #utställning-2003, #utställning-2002, #utställning-2001, #utställning-2000{
+    text-align: center;
+}
+
 /* --------------------------------------------------------------------------------- */
 
 /*-------------------------------------TOPPLISTA VILTSPÅR-------------------------------------- */
