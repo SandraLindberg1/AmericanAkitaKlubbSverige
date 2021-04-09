@@ -504,6 +504,7 @@
 }
 
 
+
 #hane2015{
     max-width: 85%;
     min-width: none;
@@ -515,6 +516,62 @@
     max-width: 100%;
     min-width: none;
     margin-top: 10%; 
+}
+
+#hane2014{
+    max-width: 85%;
+    min-width: none;
+    margin: auto;
+    margin-top: 10%;
+}
+
+#tik2014{
+    max-width: 85%;
+    min-width: none;
+    margin: auto;
+    margin-top: 10%;
+}
+
+#hane2012{
+    max-width: 100%;
+    min-width: none;
+    margin: auto;
+    margin-top: 10%;
+}
+
+#tik2012{
+    max-width: 40%;
+    min-width: none;
+    margin: auto;
+    margin-top: 5%;
+}
+
+#hane2011{
+    max-width: 63%;
+    min-width: none;
+    margin: auto;
+    margin-top: 8%;
+}
+
+#tik2011{
+    max-width: 100%;
+    min-width: none;
+    margin: auto;
+    margin-top: 10%;
+}
+
+#hane2010{
+    max-width: 80%;
+    min-width: none;
+    margin: auto;
+    margin-top: 7%;
+}
+
+#tik2010{
+    max-width: 100%;
+    min-width: none;
+    margin: auto;
+    margin-top: 10%;
 }
 
 /* --------------------------------------------------------------------------------- */
