@@ -568,51 +568,17 @@
     margin-top: 10%;
 }
 
-.container {
-    list-style:none;
-    margin: 0;
-    padding: 0;
-  }
-  .item {
-    background: tomato;
-    padding: 5px;
-    width: 200px;
-    height: 150px;
-    margin: 10px;
-    
-    line-height: 150px;
-    color: white;
-    font-weight: bold;
-    font-size: 3em;
-    text-align: center;
-  }
-
-  .flex {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    
-    -webkit-flex-flow: row wrap;
-    justify-content: space-around;
-  }
-
 #hane2004{
     max-width: 45%;
     min-width: none;
     margin: 0;
-    margin-top: 4%;
     padding: 0;
-    
+    margin-top: 4%;
+
 }
 
 @media only screen and (max-width: 600px){
-    #hane2004{
+    #hane2004, #utställning-2004{
         width: 50%;
     }
 }
