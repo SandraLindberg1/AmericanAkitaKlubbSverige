@@ -603,12 +603,18 @@
   }
 
 #hane2004{
-    max-width: 65%;
+    max-width: 100%;
     min-width: none;
     margin: 0;
     margin-top: 10%;
     padding: 0;
     
+}
+
+@media only screen and (max-width: 600px){
+    #hane2004{
+        width: 50%;
+    }
 }
 
 #tik2004{
