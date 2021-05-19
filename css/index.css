@@ -569,11 +569,12 @@
 }
 
 #hane2004{
-    max-width: 45%;
+    max-width: 35%;
     min-width: none;
     margin: 0;
     padding: 0;
     margin-top: 4%;
+    border: solid green 3px;
 
 }
 
