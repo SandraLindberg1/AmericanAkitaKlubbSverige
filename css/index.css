@@ -578,8 +578,9 @@
 }
 
 @media only screen and (max-width: 600px){
-    #hane2004, #utställning-2004{
-        width: 50%;
+    #hane2004{
+        width: 100%;
+        margin-top: 10%;
     }
 }
 
