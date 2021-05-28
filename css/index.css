@@ -480,6 +480,26 @@
     text-align: center;
 }
 
+#hanar{
+    margin-top: 10%;
+
+}
+
+#tikar{
+    margin-top: 10%;
+    
+}
+@media only screen and (max-width: 600px){
+    #tikar{
+      margin-top: 15%;  
+    }
+}
+
+
+#utställning-2020{
+
+}
+
 
 #utställning-2017 img{
     text-align: center;
