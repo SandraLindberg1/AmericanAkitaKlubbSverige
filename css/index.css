@@ -472,7 +472,7 @@
     min-width: none;
 }
 
-#utställning-2020, #utställning-2021,
+#utställning-2020,
 #utställning-2019, #utställning-2018, #utställning-2017, #utställning-2016, #utställning-2015,
 #utställning-2014, #utställning-2013, #utställning-2012, #utställning-2011, #utställning-2010, 
 #utställning-2009,#utställning-2008, #utställning-2007, #utställning-2006, #utställning-2005, 
@@ -480,8 +480,8 @@
     text-align: center;
     margin-top: 5%;
 }
-@media only screen and (max-width: 600px){
-    #utställning-2020, #utställning-2021,
+@media only screen and (max-width: 576px){
+    #utställning-2020,
     #utställning-2019, #utställning-2018, #utställning-2017, #utställning-2016, #utställning-2015,
     #utställning-2014, #utställning-2013, #utställning-2012, #utställning-2011, #utställning-2010, 
     #utställning-2009,#utställning-2008, #utställning-2007, #utställning-2006, #utställning-2005, 
@@ -499,120 +499,28 @@
     margin-top: 10%;
     
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 576px){
     #tikar{
       margin-top: 15%;  
     }
 }
 
-#utställning-2017 img{
+#tik-2017, #tik-2015 {
     text-align: center;
-    min-width: none;
-    max-width: 100%;
-    margin: auto;
-    margin-top: 10%;
-}
-
-#utställning-2016 img{
-    text-align: center;
-    min-width: none;
-    max-width: 100%;
-    margin: auto;
-    margin-top: 10%;
 }
 
 
 
-#hane2015{
-    max-width: 85%;
-    min-width: none;
-    margin: auto;
-    margin-top: 10%;
+#tik-2015 img, #hane-2014 img {
+    max-width: 50%;  
 }
-
-#tik2015{
-    max-width: 100%;
-    min-width: none;
-    margin-top: 10%; 
-}
-
-#hane2014{
-    max-width: 85%;
-    min-width: none;
-    margin: auto;
-    margin-top: 10%;
-}
-
-#tik2014{
-    max-width: 85%;
-    min-width: none;
-    margin: auto;
-    margin-top: 10%;
-}
-
-#hane2012{
-    max-width: 100%;
-    min-width: none;
-    margin: auto;
-    margin-top: 10%;
-}
-
-#tik2012{
-    max-width: 60%;
-    min-width: none;
-    margin: auto;
-    margin-top: 6%;
-}
-
-#hane2011{
-    max-width: 70%;
-    min-width: none;
-    margin: auto;
-    margin-top: 8%;
-}
-
-#tik2011{
-    max-width: 100%;
-    min-width: none;
-    margin: auto;
-    margin-top: 10%;
-}
-
-#hane2010{
-    max-width: 80%;
-    min-width: none;
-    margin: auto;
-    margin-top: 7%;
-}
-
-#tik2010{
-    max-width: 100%;
-    min-width: none;
-    margin: auto;
-    margin-top: 10%;
-}
-
-#hane2004{
-    max-width: 35%;
-    min-width: none;
-    margin: 0;
-    padding: 0;
-    margin-top: 4%;
-    border: solid green 3px;
-
-}
-
-@media only screen and (max-width: 600px){
-    #hane2004{
-        width: 100%;
-        margin-top: 10%;
+@media only screen and (max-width: 576px){
+    #tik-2015 img, #hane-2014 img{
+      max-width: 90%;
     }
 }
-
-#tik2004{
-    max-width: 100%;
-    min-width: none;
-    margin-top: 10%;
+#hane-2017, #hane-2016, #hane-2015, #hane-2014{
+    text-align: center;
 }
 
 /* --------------------------------------------------------------------------------- */
