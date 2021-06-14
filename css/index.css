@@ -505,23 +505,25 @@
     }
 }
 
-#tik-2017, #tik-2015 {
+#tik-2017, #tik-2015, #tik-2012, #tik-2011, #tik-2010, #tik-2009, #tik-2008, #tik-2007, #tik-2005, #tik-2004, #tik-2002, #tik-2001, #tik-2000 {
     text-align: center;
 }
 
-
-
-#tik-2015 img, #hane-2014 img {
-    max-width: 50%;  
+#hane-2017, #hane-2016, #hane-2015, #hane-2014, #hane-2012, #hane-2010, #hane-2009, #hane-2008, #hane-2007, #hane-2005, #hane-2004, #hane-2002, #hane-2001, #hane-2000{
+    text-align: center;
 }
+#hane-2017 img, #hane-2016 img, #hane-2015 img, #hane-2014 img, #hane-2012 img, #hane-2010 img, #hane-2009 img, #hane-2008 img, #hane-2007 img, #hane-2005 img, #hane-2004 img, #hane-2002 img, #hane-2001 img, #hane-2000 img,
+#tik-2017 img, #tik-2015 img,  #tik-2012 img,  #tik-2010 img, #tik-2009 img, #tik-2008 img, #tik-2007 img, #tik-2005 img, #tik-2004 img, #tik-2002 img, #tik-2001 img, #tik-2000 img{
+    max-width: 370px;
+}
+
 @media only screen and (max-width: 576px){
-    #tik-2015 img, #hane-2014 img{
+    #tik-2017 img, #tik-2015 img, #tik-2012 img, #tik-2011 img, #tik-2010 img, #tik-2009 img, #tik-2008 img, #tik-2007 img, #tik-2005 img, #tik-2004 img, #tik-2002 img, #tik-2001 img, #tik-2000 img,
+    #hane-2016 img, #hane-2015 img, #hane-2014 img, #hane-2012 img,  #hane-2010 img, #hane-2009 img, #hane-2008 img, #hane-2007 img, #hane-2005 img, #hane-2004 img, #hane-2002 img, #hane-2001 img, #hane-2000 img {
       max-width: 90%;
     }
 }
-#hane-2017, #hane-2016, #hane-2015, #hane-2014{
-    text-align: center;
-}
+
 
 /* --------------------------------------------------------------------------------- */
 
