@@ -130,181 +130,802 @@
             Topplistan är sedan 2016 enbart till för medlemmar i AAKS. De fem bästa resultaten per år räknas, endast resultat som svenskägda hundar åstadkommit på svenska officiella tävlingar (förutom viltspår) kommer med. Diplom utdelas på årsmötet nästkommande år.
             <br><br>
             Vid lika antal poäng och tävlingstillfällen delas placeringen, vid samma antal poäng men olika antal tävlingar placeras den hund med lägst antal tävlingstillfällen först.
+            <br><br>
+            Scrolla ner för att se resultaten.
           </p>
-          <div class="table-responsive-sm">
-            <table id="poäng-aktiv-hund" class="table table-sm">
+          <div class="container">
+            <div class="row justify-content-lg-center">
+              <table id="aktivhund">
+                <thead>
+                  <tr>
+                    <td colspan="10"><strong><h3>Hur man räknar poängen</h3></strong></td>
+                  </tr>
+                </thead> 
+              </table>
+              <div class="col-lg-5">
+                <table id="poäng-aktiv-hund" class="table table-responsive-sm">
+                  <thead>
+                    <tr>
+                      <th scope="col"><br>Lydnad</th>
+                      <th scope="col">1:a pris</th>
+                      <th scope="col">2:a pris</th>
+                      <th scope="col">3:e pris</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <!-- LYDNAD -->
+                    <tr>
+                      <th>Startklass</th>
+                      <td>6 poäng</td>
+                      <td>4 poäng</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Klass 1</th>
+                      <td>8 poäng</td>
+                      <td>6 poäng</td>
+                      <td>4 poäng</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Klass 2</th>
+                      <td>10 poäng</td>
+                      <td>8 poäng</td>
+                      <td>6 poäng</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Klass 3</th>
+                      <td>12 poäng</td>
+                      <td>10 poäng</td>
+                      <td>8 poäng</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <!-- BRUKS -->       
+              <div class="col-lg-5">
+                <table id="poäng-aktiv-hund" class="table table-responsive-sm">
+                  <thead>
+                    <tr>
+                      <th scope="col">Bruks</th>
+                      <th scope="col">CERT</th>
+                      <th scope="col">Uppfl.<br>/Certp.</th>
+                      <th scope="col">Godkänd</th>
+                    </tr>
+                  </thead>
+                  <tbody>               
+                    <tr>
+                      <th scope="row">Apell</th>
+                      <td></td>
+                      <td>12 poäng</td>
+                      <td>8 poäng</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Lägre</th>
+                      <td></td>
+                      <td>14 poäng</td>
+                      <td>10 poäng</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Högre</th>
+                      <td></td>
+                      <td>16 poäng</td>
+                      <td>12 poäng</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Elit</th>
+                      <td>4 poäng</td>
+                      <td>18 poäng</td>
+                      <td>14 poäng</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Tjänstehund</th>
+                      <td>20,5 poäng</td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <!-- AGILITY -->
+              <div class="col-lg-5">
+                <table id="poäng-aktiv-hund" class="table table-responsive-sm">
+                  <thead>
+                    <tr>
+                      <th scope="col">Agility</th>
+                      <th scope="col">CERT</th>
+                      <th scope="col">Uppfl.</th>
+                      <th scope="col">0 fel</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Klass 1</th>
+                      <td></td>
+                      <td>6 poäng</td>
+                      <td>4 poäng</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Klass 2</th>
+                      <td></td>
+                      <td>8 poäng</td>
+                      <td>6 poäng</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Klass 3</th>
+                      <td>4 poäng</td>
+                      <td>10 poäng</td>
+                      <td>8 poäng</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Hoppklass 1</th>
+                      <td></td>
+                      <td>6 poäng</td>
+                      <td>4 poäng</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Hoppklass 2</th>
+                      <td>8 poäng</td>
+                      <td>6 poäng</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Hoppklass 3</th>
+                      <td>4 poäng</td>
+                      <td>10 poäng</td>
+                      <td>8 poäng</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              
+              <!-- RALLY -->
+              <div class="col-lg-5">
+                <table id="poäng-aktiv-hund" class="table table-responsive-sm">
+                  <thead>
+                    <tr>
+                      <th scope="col">Rally</th>
+                      <th scope="col">Utan avdrag</th>
+                      <th scope="col">Kval.res.</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row"> Nybörjarklass</th>
+                      <td>4 poäng</td>
+                      <td>2 poäng</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Fort.klass</th>
+                      <td>6 poäng</td>
+                      <td>4 poäng</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Avanceradklass</th>
+                      <td>8 poäng</td>
+                      <td>6 poäng</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Mästarklass</th>
+                      <td>10 poäng</td>
+                      <td>8 poäng</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>  
+          </div>
+        </div>
+      </div>
+
+      <!-- 2020 -->
+      <div class="container">
+        <div class="row justify-content-md-center"> 
+          <table id="aktiv-hund-år">
+            <thead>
+              <tr>
+                <td colspan="10"><strong><h2>2020</h2></strong></td>
+              </tr>
+            </thead> 
+          </table>
+          <div class="col-lg-5">                            
+            <table class="table table-responsive-sm">
               <thead>
-                <tr>
-                  <th scope="col"></th>
-                  <th scope="col">1:a pris</th>
-                  <th scope="col">2:a pris</th>
-                  <th scope="col">3:a pris</th>
-                </tr>
               </thead>
-              <tbody>
-                <!-- LYDNAD -->
+              <tbody>             
                 <tr>
-                  <th scope="row">Lydnadsklass Startklass</th>
-                  <td>6 poäng</td>
-                  <td>4 poäng</td>
-                  <td></td>
+                  <td scope="col"><strong>Plac.</strong></td>
+                  <td scope="col"><strong>Hund.</strong></td>
+                  <td scope="col"><strong>Poäng.</strong></td>
+                  <td scope="col"><strong>Tävl.</strong></td>
                 </tr>
-                <tr>
-                  <th scope="row">Lydnadsklass 1</th>
-                  <td>8 poäng</td>
-                  <td>6 poäng</td>
-                  <td>4 poäng</td>
+                <tr>  
+                  <td>1.</td>
+                  <td>Mac Conrads All or Nothing</td>
+                  <td>6</td>
+                  <td>3</td>
                 </tr>
-                <tr>
-                  <th scope="row">Lydnadsklass 2</th>
-                  <td>10 poäng</td>
-                  <td>8 poäng</td>
-                  <td>6 poäng</td>
+                <tr>                      
+                  <td>2.</td>
+                  <td>Mac Conrads Lara Croft</td>
+                  <td>2</td>
+                  <td>1</td>
                 </tr>
-                <tr>
-                  <th scope="row">Lydnadsklass 3</th>
-                  <td>12 poäng</td>
-                  <td>10 poäng</td>
-                  <td>8 poäng</td>
-                </tr>
-                <!-- MELLANRUM -->
-                <tr>
-                  <th scope="row"></th>
+                <tr>                      
+                  <td>3.</td>
                   <td></td>
                   <td></td>
                   <td></td>
                 </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <!-- 2019 -->
+      <div class="container">
+        <div class="row justify-content-md-center"> 
+          <table id="aktiv-hund-år">
+            <thead>
+              <tr>
+                <td colspan="10"><strong><h2>2019</h2></strong></td>
+              </tr>
+            </thead> 
+          </table>
+          <div class="col-lg-5">                            
+            <table class="table table-responsive-sm">
+              <thead>
+              </thead>
+              <tbody>             
+                <tr>
+                  <td scope="col"><strong>Plac.</strong></td>
+                  <td scope="col"><strong>Hund.</strong></td>
+                  <td scope="col"><strong>Poäng.</strong></td>
+                  <td scope="col"><strong>Tävl.</strong></td>
+                </tr>
+                <tr>  
+                  <td>1.</td>
+                  <td>Mac Conrads All or Nothing</td>
+                  <td>16</td>
+                  <td>4</td>
+                </tr>
+                <tr>                      
+                  <td>2.</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>                      
+                  <td>3.</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
 
-                <!-- BRUKS -->
+      <!-- 2017 -->
+      <div class="container">
+        <div class="row justify-content-md-center"> 
+          <table id="aktiv-hund-år">
+            <thead>
+              <tr>
+                <td colspan="10"><strong><h2>2017</h2></strong></td>
+              </tr>
+            </thead> 
+          </table>
+          <div class="col-lg-5">
+            <!--Bilden-->
+            <div id="aktiv-hund-bild">
+              <img src="aktivhund/2017-2016.jpg" alt="">
+              <p>
+                Äg: Anna Ringh
+              </p>
+            </div>                            
+            <table class="table table-responsive-sm">
+              <thead>
+              </thead>
+              <tbody>             
                 <tr>
-                  <th scope="row"></th>
-                  <td><strong>CERT</strong></td>
-                  <td><strong>Uppfl./Certp.</strong></td>
-                  <td><strong>Godkänd</strong></td>
-                </tr>                
-                <tr>
-                  <th scope="row">Bruks apell</th>
-                  <td></td>
-                  <td>12 poäng</td>
-                  <td>8 poäng</td>
+                  <td scope="col"><strong>Plac.</strong></td>
+                  <td scope="col"><strong>Hund.</strong></td>
+                  <td scope="col"><strong>Poäng.</strong></td>
+                  <td scope="col"><strong>Tävl.</strong></td>
                 </tr>
-                <tr>
-                  <th scope="row">Bruks lägre</th>
-                  <td></td>
-                  <td>14 poäng</td>
-                  <td>10 poäng</td>
+                <tr>  
+                  <td>1.</td>
+                  <td>Mac Conrads Lara Croft</td>
+                  <td>12</td>
+                  <td>1</td>
                 </tr>
-                <tr>
-                  <th scope="row">Bruks högre</th>
-                  <td></td>
-                  <td>16 poäng</td>
-                  <td>12 poäng</td>
-                </tr>
-                <tr>
-                  <th scope="row">Bruks Elit</th>
-                  <td>4 poäng</td>
-                  <td>18 poäng</td>
-                  <td>14 poäng</td>
-                </tr>
-                <tr>
-                  <th scope="row">Tjänstehund</th>
-                  <td>20,5 poäng</td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                
-                <!-- MELLANRUM -->
-                <tr>
-                  <th scope="row"></th>
+                <tr>                      
+                  <td>2.</td>
                   <td></td>
                   <td></td>
                   <td></td>
                 </tr>
+                <tr>                      
+                  <td>3.</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <!-- 2016 -->
+      <div class="container">
+        <div class="row justify-content-md-center"> 
+          <table id="aktiv-hund-år">
+            <thead>
+              <tr>
+                <td colspan="10"><strong><h2>2016</h2></strong></td>
+              </tr>
+            </thead> 
+          </table>
+          <div class="col-lg-5">
+            <!--Bilden-->
+            <div id="aktiv-hund-bild">
+              <img src="aktivhund/2017-2016.jpg" alt="">
+              <p>
+                Äg: Anna Ringh
+              </p>
+            </div>                            
+            <table class="table table-responsive-sm">
+              <thead>
+              </thead>
+              <tbody>             
+                <tr>
+                  <td scope="col"><strong>Plac.</strong></td>
+                  <td scope="col"><strong>Hund.</strong></td>
+                  <td scope="col"><strong>Poäng.</strong></td>
+                  <td scope="col"><strong>Tävl.</strong></td>
+                </tr>
+                <tr>  
+                  <td>1.</td>
+                  <td>Mac Conrads Lara Croft</td>
+                  <td>24</td>
+                  <td>5</td>
+                </tr>
+                <tr>                      
+                  <td>2.</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>                      
+                  <td>3.</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
 
-                <!-- AGILITY -->
+      <!-- 2015 -->
+      <div class="container">
+        <div class="row justify-content-md-center"> 
+          <table id="aktiv-hund-år">
+            <thead>
+              <tr>
+                <td colspan="10"><strong><h2>2015</h2></strong></td>
+              </tr>
+            </thead> 
+          </table>
+          <div class="col-lg-5">
+            <!--Bilden-->
+            <div id="aktiv-hund-bild">
+              <img src="aktivhund/2015.png" alt="">
+              <p>
+                Äg: Anna Lundén
+              </p>
+            </div>                            
+            <table class="table table-responsive-sm">
+              <thead>
+              </thead>
+              <tbody>             
                 <tr>
-                  <th scope="row"></th>
-                  <td><strong>CERT</strong></td>
-                  <td><strong>Uppflyttad</strong></td>
-                  <td><strong>0 fel</strong></td>
+                  <td scope="col"><strong>Plac.</strong></td>
+                  <td scope="col"><strong>Hund.</strong></td>
+                  <td scope="col"><strong>Poäng.</strong></td>
+                  <td scope="col"><strong>Tävl.</strong></td>
                 </tr>
-                
-                <tr>
-                  <th scope="row">Agilityklass 1</th>
-                  <td></td>
-                  <td>6 poäng</td>
-                  <td>4 poäng</td>
+                <tr>  
+                  <td>1.</td>
+                  <td>Rockports queen of dreamz</td>
+                  <td>26</td>
+                  <td>4</td>
                 </tr>
-                <tr>
-                  <th scope="row">Agilityklass 2</th>
-                  <td></td>
-                  <td>8 poäng</td>
-                  <td>6 poäng</td>
+                <tr>                      
+                  <td>2.</td>
+                  <td>Mac Conrads Lara Croft</td>
+                  <td>18</td>
+                  <td>5</td>
                 </tr>
-                <tr>
-                  <th scope="row">Agilityklass 3</th>
-                  <td>4 poäng</td>
-                  <td>10 poäng</td>
-                  <td>8 poäng</td>
+                <tr>                      
+                  <td>3.</td>
+                  <td>Vivaswartz up to talk</td>
+                  <td>2</td>
+                  <td>1</td>
                 </tr>
-                <tr>
-                  <th scope="row">Hoppklass 1</th>
-                  <td></td>
-                  <td>6 poäng</td>
-                  <td>4 poäng</td>
-                </tr>
-                <tr>
-                  <th scope="row">Hoppklass 2</th>
-                  <td>8 poäng</td>
-                  <td>6 poäng</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <th scope="row">Hoppklass 3</th>
-                  <td>4 poäng</td>
-                  <td>10 poäng</td>
-                  <td>8 poäng</td>
-                </tr>
-                
-                <!-- MELLANRUM -->
-                <tr>
-                  <th scope="row"></th>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
 
-                <!-- RALLY -->
+      <!-- 2014 -->
+      <div class="container">
+        <div class="row justify-content-md-center"> 
+          <table id="aktiv-hund-år">
+            <thead>
+              <tr>
+                <td colspan="10"><strong><h2>2014</h2></strong></td>
+              </tr>
+            </thead> 
+          </table>
+          <div class="col-lg-5">
+            <!--Bilden-->
+            <div id="aktiv-hund-bild">
+              <img src="aktivhund/2014.jpg" alt="">
+              <p>
+                Äg: Anna Ringh
+              </p>
+            </div>                            
+            <table class="table table-responsive-sm">
+              <thead>
+              </thead>
+              <tbody>             
                 <tr>
-                  <th scope="row"></th>
-                  <td><strong></strong></td>
-                  <td><strong>Utan avdrag</strong></td>
-                  <td><strong>Kval.res.</strong></td>
+                  <td scope="col"><strong>Plac.</strong></td>
+                  <td scope="col"><strong>Hund.</strong></td>
+                  <td scope="col"><strong>Poäng.</strong></td>
+                  <td scope="col"><strong>Tävl.</strong></td>
                 </tr>
-                 
-                <tr>
-                  <th scope="row">Rally nybörjarklass</th>
-                  <td></td>
-                  <td>4 poäng</td>
-                  <td>2 poäng</td>
+                <tr>  
+                  <td>1.</td>
+                  <td>Mac Conrads Lara Croft</td>
+                  <td>18</td>
+                  <td>5</td>
                 </tr>
-                <tr>
-                  <th scope="row">Rally fortsättningsklass</th>
-                  <td></td>
-                  <td>6 poäng</td>
-                  <td>4 poäng</td>
+                <tr>                      
+                  <td>2.</td>
+                  <td>Rockports queen of dreamz</td>
+                  <td>16</td>
+                  <td>5</td>
                 </tr>
-                <tr>
-                  <th scope="row">Rally avancerad klass</th>
+                <tr>                      
+                  <td>3.</td>
                   <td></td>
-                  <td>8 poäng</td>
-                  <td>6 poäng</td>
+                  <td></td>
+                  <td></td>
                 </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2013 -->
+      <div class="container">
+        <div class="row justify-content-md-center"> 
+          <table id="aktiv-hund-år">
+            <thead>
+              <tr>
+                <td colspan="10"><strong><h2>2013</h2></strong></td>
+              </tr>
+            </thead> 
+          </table>
+          <div class="col-lg-5">                       
+            <table class="table table-responsive-sm">
+              <thead>
+              </thead>
+              <tbody>             
                 <tr>
-                  <th scope="row">Rally mästarklass</th>
+                  <td scope="col"><strong>Plac.</strong></td>
+                  <td scope="col"><strong>Hund.</strong></td>
+                  <td scope="col"><strong>Poäng.</strong></td>
+                  <td scope="col"><strong>Tävl.</strong></td>
+                </tr>
+                <tr>  
+                  <td>1.</td>
+                  <td>Titanerna Omoigane</td>
+                  <td>2</td>
+                  <td>1</td>
+                </tr>
+                <tr>                      
+                  <td>2.</td>
                   <td></td>
-                  <td>10 poäng</td>
-                  <td>8 poäng</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>                      
+                  <td>3.</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2009 -->
+      <div class="container">
+        <div class="row justify-content-md-center"> 
+          <table id="aktiv-hund-år">
+            <thead>
+              <tr>
+                <td colspan="10"><strong><h2>2009</h2></strong></td>
+              </tr>
+            </thead> 
+          </table>
+          <div class="col-lg-5">
+            <!--Bilden-->
+            <div id="aktiv-hund-bild">
+              <img src="aktivhund/2009.jpg" alt="">
+              <p>
+                Äg: Katarina Svensson
+              </p>
+            </div>                            
+            <table class="table table-responsive-sm">
+              <thead>
+              </thead>
+              <tbody>             
+                <tr>
+                  <td scope="col"><strong>Plac.</strong></td>
+                  <td scope="col"><strong>Hund.</strong></td>
+                  <td scope="col"><strong>Poäng.</strong></td>
+                  <td scope="col"><strong>Tävl.</strong></td>
+                </tr>
+                <tr>  
+                  <td>1.</td>
+                  <td>Ch Lucky Dragon's Cecilia</td>
+                  <td>6</td>
+                  <td>2</td>
+                </tr>
+                <tr>                      
+                  <td>2.</td>
+                  <td>Ch Lucky Dragon's Athena-Marsh</td>
+                  <td>6</td>
+                  <td>3</td>
+                </tr>
+                <tr>                      
+                  <td>3.</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <!-- 2008 -->
+      <div class="container">
+        <div class="row justify-content-md-center"> 
+          <table id="aktiv-hund-år">
+            <thead>
+              <tr>
+                <td colspan="10"><strong><h2>2008</h2></strong></td>
+              </tr>
+            </thead> 
+          </table>
+          <div class="col-lg-5">
+            <!--Bilden-->
+            <div id="aktiv-hund-bild">
+              <img src="aktivhund/2008.jpg" alt="">
+              <p>
+                Äg: Ann-Christin Jonsson-Lehman
+              </p>
+            </div>                            
+            <table class="table table-responsive-sm">
+              <thead>
+              </thead>
+              <tbody>             
+                <tr>
+                  <td scope="col"><strong>Plac.</strong></td>
+                  <td scope="col"><strong>Hund.</strong></td>
+                  <td scope="col"><strong>Poäng.</strong></td>
+                  <td scope="col"><strong>Tävl.</strong></td>
+                </tr>
+                <tr>  
+                  <td>1.</td>
+                  <td>Ch Lucky Dragon's Athena-Marsh</td>
+                  <td>22</td>
+                  <td>5</td>
+                </tr>
+                <tr>                      
+                  <td>2.</td>
+                  <td>Optimum Solutions Looks Like A Lady</td>
+                  <td>20,5</td>
+                  <td>1</td>
+                </tr>
+                <tr>                      
+                  <td>3.</td>
+                  <td>Ch Lucky Dragon's Cecilia</td>
+                  <td>4</td>
+                  <td>1</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2007 -->
+      <div class="container">
+        <div class="row justify-content-md-center"> 
+          <table id="aktiv-hund-år">
+            <thead>
+              <tr>
+                <td colspan="10"><strong><h2>2007</h2></strong></td>
+              </tr>
+            </thead> 
+          </table>
+          <div class="col-lg-5">
+            <!--Bilden-->
+            <div id="aktiv-hund-bild">
+              <img src="aktivhund/2007.jpg" alt="">
+              <p>
+                Äg: Veronica Martinsson
+              </p>
+            </div>                            
+            <table class="table table-responsive-sm">
+              <thead>
+              </thead>
+              <tbody>             
+                <tr>
+                  <td scope="col"><strong>Plac.</strong></td>
+                  <td scope="col"><strong>Hund.</strong></td>
+                  <td scope="col"><strong>Poäng.</strong></td>
+                  <td scope="col"><strong>Tävl.</strong></td>
+                </tr>
+                <tr>  
+                  <td>1.</td>
+                  <td>Ch Lucky Dragon's Cecilia</td>
+                  <td>18</td>
+                  <td>4</td>
+                </tr>
+                <tr>                      
+                  <td>2.</td>
+                  <td>Ch Lucky Dragon's Athena-Marsh</td>
+                  <td>14</td>
+                  <td>5</td>
+                </tr>
+                <tr>                      
+                  <td>3.</td>
+                  <td>Tridents Great Fire Dancer</td>
+                  <td>4</td>
+                  <td>2</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2006 -->
+      <div class="container">
+        <div class="row justify-content-md-center"> 
+          <table id="aktiv-hund-år">
+            <thead>
+              <tr>
+                <td colspan="10"><strong><h2>2006</h2></strong></td>
+              </tr>
+            </thead> 
+          </table>
+          <div class="col-lg-5">
+            <!--Bilden-->
+            <div id="aktiv-hund-bild">
+              <img src="aktivhund/2006.jpg" alt="">
+              <p>
+                Äg: Ann-Christin Jonsson-Lehman
+              </p>
+            </div>                            
+            <table class="table table-responsive-sm">
+              <thead>
+              </thead>
+              <tbody>             
+                <tr>
+                  <td scope="col"><strong>Plac.</strong></td>
+                  <td scope="col"><strong>Hund.</strong></td>
+                  <td scope="col"><strong>Poäng.</strong></td>
+                  <td scope="col"><strong>Tävl.</strong></td>
+                </tr>
+                <tr>  
+                  <td>1.</td>
+                  <td>Ch Lucky Dragon's Athena-Marsh</td>
+                  <td>20</td>
+                  <td>5</td>
+                </tr>
+                <tr>                      
+                  <td>2.</td>
+                  <td>Lucky Dragon's Evidence</td>
+                  <td>12</td>
+                  <td>4</td>
+                </tr>
+                <tr>                      
+                  <td>3.</td>
+                  <td>Ch Ruthdales Hercules In Marsh</td>
+                  <td>11</td>
+                  <td>4</td>
+                </tr>
+                <tr>                      
+                  <td>4.</td>
+                  <td>Winslett's US Peacekeeper</td>
+                  <td>8</td>
+                  <td>4</td>
+                </tr>
+                <tr>                      
+                  <td>5.</td>
+                  <td>Lucky Dragon's Cecilia</td>
+                  <td>5</td>
+                  <td>2</td>
+                </tr>
+                <tr>                      
+                  <td>6.</td>
+                  <td>Milstolpen's Dusty Miller</td>
+                  <td>4</td>
+                  <td>1</td>
+                </tr>
+                <tr>                      
+                  <td></td>
+                  <td>Milstolpen's Damber Dai Ben</td>
+                  <td>4</td>
+                  <td>1</td>
+                </tr>
+                <tr>                      
+                  <td>7.</td>
+                  <td>Lucky Dragon's Poseidon-Marsh</td>
+                  <td>3</td>
+                  <td>1</td>
+                </tr>
+                <tr>                      
+                  <td></td>
+                  <td>Echo Star's Moonlight Mystique</td>
+                  <td>3</td>
+                  <td>1</td>
+                </tr>
+                <tr>                      
+                  <td></td>
+                  <td>Syoori's Got A Hungry Hart</td>
+                  <td>3</td>
+                  <td>1</td>
+                </tr>
+                <tr>                      
+                  <td>8.</td>
+                  <td>Syoori's Eagle Eyed Enya</td>
+                  <td>1</td>
+                  <td>1</td>
+                </tr>
+                <tr>                      
+                  <td></td>
+                  <td>Tridents Great Fire Dancer</td>
+                  <td>1</td>
+                  <td>1</td>
+                </tr>
+                <tr>                      
+                  <td></td>
+                  <td>Milstolpen's Galore Garm</td>
+                  <td>1</td>
+                  <td>1</td>
+                </tr>
+                <tr>                      
+                  <td></td>
+                  <td>Syoori's Gonna Find My Angel</td>
+                  <td>1</td>
+                  <td>1</td>
                 </tr>
               </tbody>
             </table>
