@@ -3,6 +3,17 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+i{
+    color: #900909;
+}
+
+a:visited{
+    color: #900909;
+}
+a:link{
+    color: black;
+}
+
 .container {
     align-content: space-evenly;
 }
@@ -18,8 +29,17 @@
 .navbar-toggler:active,
 .navbar-toggler:focus {
     box-shadow: none;
+    color:rgb(145, 1, 1);
 }
-  
+
+#navbarCollapse a:active{
+    background-color:#900909;
+}
+
+#navbarCollapse .navbar-nav .dropdown .dropdown-menu .dropdown-item.active{
+    background-color:#900909;
+}
+
 .navbar-nav .nav-link {
     font-weight: 600;
     margin: 0 0.7rem;
@@ -362,6 +382,14 @@
 
 /*-------------------------------------STATISTIK-------------------------------------- */
 
+#statistik-text{
+    margin-top: 5%;
+    border-bottom:1px solid lightgrey;
+}
+#statistik-text h3{
+    color: rgb(145, 1, 1);
+}
+
 #registreringar{
     margin: auto;
     max-width: 80%;
@@ -693,8 +721,3 @@
     max-width: 80%;
     min-width: none; 
 }
-
-
-
-
-
