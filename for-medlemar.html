@@ -124,17 +124,30 @@
         <h1>För Medlemmar</h1>
       </div>
       
+      <script lang="javascript">
+        function pass(form) {   
+          if (form.password.value=="AAKSB2018") {              
+            location="/medlemsida.html" 
+          } 
+          else {
+            alert("Fel lösenord. Vänligen försök igen.")
+          } 
+        }
+      </script>
       <div class="container-md">
         <div id="förMedlemmar">
           <p>Ange lösenordet som du fått via mail och tryck på knappen "Logga in" för att komma till medlemsytan.</p>
           <br>
-          <form>
+          <form method="post">
             <input id="password" type="password" name="password">
             <br> <br>
-            <button type="submit" class="btn btn-dark">Logga in</button>
+            <input type="button" value="Logga in" onClick="pass(this.form)">
+            <!--<button type="submit" class="btn btn-dark">Logga in</button> -->
           </form>
+          
         </div>
       </div>
+      
     </main>
     <footer>
       <div class="container-sm">
@@ -146,7 +159,8 @@
           <p> Copyright &copy; American Akita Klubb Sverige</p>
         </div>
       </div>
-    </footer> 
+    </footer>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
   </body>
 </html>
