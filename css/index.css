@@ -32,11 +32,11 @@ a:link{
     color:rgb(145, 1, 1);
 }
 
-#navbarCollapse a:active{
+#navbarCollapse ul li ul li a:active{
     background-color:#900909;
 }
 
-#navbarCollapse .navbar-nav .dropdown .dropdown-menu .dropdown-item.active{
+#navbarCollapse .navbar-nav .dropdown-menu .dropdown-item.active{
     background-color:#900909;
 }
 

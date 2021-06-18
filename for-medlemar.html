@@ -16,6 +16,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
     />
+    
   </head>
   <body>
     <header>
@@ -124,27 +125,50 @@
         <h1>För Medlemmar</h1>
       </div>
       
-      <script lang="javascript">
-        function pass(form) {   
-          if (form.password.value=="AAKSB2018") {              
-            location="/medlemsida.html" 
-          } 
-          else {
-            alert("Fel lösenord. Vänligen försök igen.")
-          } 
-        }
-      </script>
+          
       <div class="container-md">
         <div id="förMedlemmar">
           <p>Ange lösenordet som du fått via mail och tryck på knappen "Logga in" för att komma till medlemsytan.</p>
           <br>
-          <form method="post">
-            <input id="password" type="password" name="password">
-            <br> <br>
-            <input type="button" value="Logga in" onClick="pass(this.form)">
-            <!--<button type="submit" class="btn btn-dark">Logga in</button> -->
-          </form>
-          
+          <div class="div1">
+            <form name="myForm" method="post">
+              <input id="password" type="password" class="inputText" placeholder="Lösenord">
+              <br> <br>
+              <!--<input type="button" name="log" id="logbutton" value="Login" onclick="myFunction()"> name="pass"  -->
+               <button type="button" class="btn btn-dark" onclick="getInfo()">Logga in</button> 
+              <script>
+                var word = [
+                  {
+                    password: "AAKSB2018"
+                  }
+                ]
+                function getInfo() {
+                  var password = document.getElementById("password").value
+
+                  for(i = 0; i < word.length; i++){
+                    if(password == word[i].password){
+                      window.location.href="medlemsida.html";
+                      return
+                    }  
+                  }
+                  alert("Fel lösenord. Vänligen försök igen.");
+
+
+                  
+                }
+                /*function myFunction() {   
+                  var pw = document.forms["myForm"]["Pass"].value;
+                
+                  if(pw=="AAKSB2018"){
+                    
+                  }
+                  
+                
+                }*/
+              </script>
+            </form>
+
+          </div>
         </div>
       </div>
       
